@@ -1,13 +1,12 @@
 # Library-System-OOP
-Library Management System — PO 2025/2026
 
 Project developed for the Programação com Objectos (PO) course, 2025/2026, Instituto Superior Técnico.
 
-Description
+## Description
 
 A Java application to manage a library's collection. It supports searching works, registering users and works, and managing loan requests.
 
-Main concepts:
+## Main concepts:
 
 Creators — authors/directors, identified by name, linked to their works.
 Works — books (authors, ISBN) or DVDs (director, IGAC number), each with a title, price, category, and copies in stock.
@@ -17,7 +16,7 @@ Notifications — users can be notified when a work is borrowed or becomes avail
 
 Application state can be saved/loaded via Java serialization, and an initial dataset can be imported from a text file at startup.
 
-User interaction
+## User interaction
 
 The interface has a Main Menu (open/save state, show/advance date, and access to sub-menus) and three sub-menus:
 
@@ -46,6 +45,6 @@ make run
 
 This compiles the sources in app/, core/ and po-uilib/ and launches the application (bci.app.App).
 
-Author
+## Author
 
-Margarida Guedes
+- [Margarida Guedes](https://github.com/margaridamguedes)
